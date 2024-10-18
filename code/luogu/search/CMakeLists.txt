@@ -8,8 +8,3 @@ foreach(source ${cpp_sources})
     # 添加一个可执行文件目标
     add_executable(${exec_name} ${source})
 endforeach()
-
-add_subdirectory(sort)
-add_subdirectory(enumeration)
-add_subdirectory(binary_search)
-add_subdirectory(search)
